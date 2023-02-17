@@ -41,8 +41,7 @@ h1{
 }
 
 #liquids-project{
-  content: url(file:///D:/MOHIT/HTML/images.jpg);
-  float: left;
+  content: url(assets/images/liquidsprojectimage.jpg);
   width: 250px;
   height: 150px;
   vertical-align: middle;
