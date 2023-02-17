@@ -2,95 +2,49 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title> Patrick Imper Portfolio </title>
+    <title>Patrick Imper Portfolio</title>
     <link rel="stylesheet" href="/css/css/bootstrap.css"> <!-- Add CSS Bootstrap Capability-->
 
     <!-- Style of Text-->
     <style type = "text/css">
       body{
-        background: #E4DCD1;
+        background: #E4DCD1; /* Set Background color of page */
       }
-      h1{
-        color: #FFFFFF;
-        font-size: 60px;
-        font-family: arial;
-        text-align: left;
-        padding: 20px;
+      .page-header h1{
+        font-size: 60px; /*Set header font size*/
+        color: black; /*Set header color*/
+        float: left; /*Set header float location*/
       }
-      hr{
-        width: 1000px;
-        height: 2px;
-        background: black;
+      .vertical-menu{
+        width: 200px; /*set width of vertical sidebar menu*/
       }
-      p{
-        font-size: 15pt;
-        text-indent: 60px;
-        color:#75727D;
+      .vertical-menu a{
+        background-color: #eee /* set background color of menu*/
+        color: #000000; /* set text color*/
+        display: block; /* make links below each other*/
+        padding: 12px; /* padding between text*/
+        text-decoration: none; /* remove underline */
       }
-      .one{
-        float:left;
-        padding: 5px;
-        margin: 10px;
-        background: gray;
+      .vertical-menu a:hover{
+        background-color: #ccc; /* menu color changes when hovered over*/
       }
-      .two{
-        float:right;
-        padding: 5px;
-        margin: 10px;
-        background: gray;
-      }
-      .three{
-        float:left;
-        padding:5px;
-        margin: 10px;
-        background: gray;
-      }
-      .hr1{
-        width: auto;
-      }
-      .hr2{
-        width: auto;
-      }
-      ul{
-        list-style: none;
-        padding:5px;
-        margin: 10px;
-        margin-left: 32%;
-      }
-      li{
-        display: inline;
-      }
-      a{
-        text-decoration: none;
-        padding: 7px 17px;
-        background: #3F628D;
-        width:auto;
-        text-align: center;
-        float:left;
+      .vertical-menu a:active{
+        background-color: #04AA6D; /* Make it green when on page */
         color: white;
-        font-size: 15pt;
-        font-weight: bold;
-      }
-      a:hover{
-        background: #75727D;
-      }
-      .hr3{
-        width: 1000px;
-        height: 2px;
-        background: black;
       }
     </style>
   </head>
+
   <!-- Begin Page Layout-->
   <body>
-    <h1> Patrick Imper - Image Wrapping</h1>
-    <hr>
-    <ul>
-      <li><a href = "aboutme.html" >About Me</a></li>
-      <li><a href = "projectpage.html" >Projects</a></li>
-      <li><a href = "#" >Cool Pictures</a></li>
-    </ul>
-    <hr>
+    <div class = "page-header">
+      <h1>Patrick Imper</h1>
+    </div>
+    <div class = "vertical-menu">
+      <a href="index.html">Home</a>
+      <a href = "aboutme.html">About Me</a>
+      <a href = "projectpages.html">My Projects</a>
+    </div>
 
   </body>
 </html>
