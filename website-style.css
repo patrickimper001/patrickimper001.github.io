@@ -36,8 +36,9 @@ h1{
     margin: auto;
   }
 
-  #header .header-body img{
+  #header .header-body .headed-image{
     width: 120px;
+    margin: auto;
   }
 
   #header .menu-social-links{
