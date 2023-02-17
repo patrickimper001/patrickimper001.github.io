@@ -1,7 +1,7 @@
 
 
 body{
-  background: #4597DC;
+  background-color: #4597DC;
   font: Arial;
 }
 
@@ -27,7 +27,7 @@ h1{
   top: 0px;
   bottom: 0px;
   right: 300px;
-  background: #1D3145;
+  background-color: #1D3145
 }
   #header .header-body h1{
     font-family: cursive;
@@ -37,9 +37,13 @@ h1{
   }
 
   #header .header-body img{
-    width: 100px auto;
+    width: 50px auto;
     margin: auto;
     margin-bottom: 10px;
+  }
+
+  #header .menu-social-links{
+    margin: auto;
   }
 
 #menubar{
