@@ -1,0 +1,41 @@
+
+
+body{
+  color: #4597DC;
+  font: Arial;
+}
+
+a{
+  color: #9CB3C6;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #E7C2B3;
+  text-decoration: none;
+  text-shadow: 5px;
+}
+
+h1{
+  font-family: serif;
+}
+
+#header{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  right: 200px;
+  color: #1D3145;
+}
+
+#header .header-body h1{
+  font-family: cursive;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+#header .header-body img{
+  width: 100px auto;
+
+}
