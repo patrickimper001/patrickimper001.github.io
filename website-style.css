@@ -36,10 +36,9 @@ h1{
     margin: auto;
   }
 
-  #header .header-body img{
-    width: 50px auto;
+  #header .header-body .header-image{
+    width: 120px;
     margin: auto;
-    margin-bottom: 10px;
   }
 
   #header .menu-social-links{
@@ -49,6 +48,7 @@ h1{
 
 #menubar{
   margin: auto;
+  list-style: none;
 }
 
 #menubar .header-menubar{
