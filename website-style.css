@@ -39,3 +39,11 @@ h1{
   width: 100px auto;
 
 }
+
+#liquids-project{
+  content: url(file:///D:/MOHIT/HTML/images.jpg);
+  float: left;
+  width: 250px;
+  height: 150px;
+  vertical-align: middle;
+}
