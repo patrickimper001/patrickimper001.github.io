@@ -38,7 +38,6 @@ h1{
 
   #header .header-body img{
     width: 120px;
-    margin: auto;
   }
 
   #header .menu-social-links{
@@ -47,6 +46,7 @@ h1{
 
 #menubar{
   margin: auto;
+  list-style: none;
 }
 
 #menubar .header-menubar{
