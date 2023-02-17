@@ -1,7 +1,7 @@
 
 
 body{
-  color: #4597DC;
+  background: #4597DC;
   font: Arial;
 }
 
@@ -26,7 +26,7 @@ h1{
   top: 0px;
   bottom: 0px;
   right: 200px;
-  color: #1D3145;
+  background: #1D3145;
 }
 
 #header .header-body h1{
@@ -46,4 +46,8 @@ h1{
   width: 250px;
   height: 150px;
   vertical-align: middle;
+}
+
+#navbar{
+  list-style: none;
 }
