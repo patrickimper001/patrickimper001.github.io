@@ -20,6 +20,7 @@ h1{
   font-family: serif;
 }
 
+/* Left Main Page Bar CSS */
 #header{
   position: fixed;
   left: 0px;
@@ -28,35 +29,41 @@ h1{
   right: 300px;
   background: #1D3145;
 }
+  #header .header-body h1{
+    font-family: cursive;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: auto;
+  }
 
-#header .header-body h1{
-  font-family: cursive;
-  color: #FFFFFF;
-  font-size: 20px;
+  #header .header-body img{
+    width: 100px auto;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+#menubar{
   margin: auto;
 }
 
-#header .header-body img{
-  width: 100px auto;
-  margin: auto;
-  margin-bottom: 10px;
+#menubar .header-menubar{
+  list-style: none;
 }
 
+/* Front Page Image CSS */
 #frontpage-image{
   margin-left: 300px;
 }
 
+/* Main Page Body CSS */
 #main-text{
   margin-left: 300px;
 }
 
+/* Liquids Project Image */
 #liquids-project{
   content: url("assets/images/liquidsprojectimage.jpg");
   width: 250px;
   height: 150px;
   vertical-align: middle;
-}
-
-.header-menubar{
-  list-style: none;
 }
