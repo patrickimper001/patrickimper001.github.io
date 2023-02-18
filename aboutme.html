@@ -1,198 +1,37 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
-<title>About Me</title>
-<meta charset="utf-8">
-<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700|Open+Sans+Condensed:300,700" rel="stylesheet">
-<script src="js/jquery-1.8.3.min.js"></script>
-<script src="css/5grid/init.js?use=mobile,desktop,1200px,1000px&amp;mobileUI=1&amp;mobileUI.theme=none"></script>
-<noscript>
-<link rel="stylesheet" href="css/5grid/core.css">
-<link rel="stylesheet" href="css/5grid/core-desktop.css">
-<link rel="stylesheet" href="css/5grid/core-1200px.css">
-<link rel="stylesheet" href="css/5grid/core-noscript.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/style-desktop.css">
-<link rel="stylesheet" href="css/style-1200px.css">
-</noscript>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-<body class="left-sidebar">
+  <body id = "content">
+     <header id = "header-text">
+      <h1>Patrick Imper</h1>
+      <h3>About Me</h3>
+     </header> 
 
-<div id="wrapper">
-
-  <div id="content" class="mobileUI-main-content">
-
-    <div id="content-inner">
-
-      <!-- Post 1-->
-      <article class="is-post is-post-excerpt">
-        <header>
-          <h2><a href="#">Patrick Imper</a></h2>
-          <span class="byline">My Portfolio</span> </header>
-
-        <!--Things above image, maybe get rid of-->
-        <div class="info"> <span class="date"><span class="month">Jan<span>uary</span></span> <span class="day">14</span><span class="year">, 2045</span></span>
-          <ul class="stats">
-            <li><a href="#" class="link-icon24 link-icon24-1">16</a></li>
-            <li><a href="#" class="link-icon24 link-icon24-2">32</a></li>
-            <li><a href="#" class="link-icon24 link-icon24-3">64</a></li>
-            <li><a href="#" class="link-icon24 link-icon24-4">128</a></li>
-          </ul>
+     <hr>
+     
+     <section id = "left_side">
+        <div id ="nav">
+          <p><a href = "index.html">Home</a></p>
+          <p><a href = "aboutme.html">About Me</a></p>
+          <p><a href = "myprojects.html">My Projects</a></p>
+          <p><a href = "./assets/PatrickImperResume.pdf">Resume</a></p>
+          <p><a href = "contactme.html">Contact Me</a></p>
         </div>
-        <a href="#" class="image image-full"><img src="images/n33-robot-invader.jpg" alt=""></a>
-        <p> <strong>Hello!</strong> You're looking at Striped, a fully responsive HTML5 site template designed by AJ for HTML5 Up! It features a clean, minimalistic design, styling for all basic page elements (including blockquotes, tables and lists), a repositionable sidebar (left or right), and HTML5/CSS3 code designed for quick and easy customization (see code comments for details). </p>
-        <p> Striped is released for free under the Creative Commons Attribution license so feel free to use it for personal projects or even commercial ones &ndash; just be sure to credit HTML5 Up! for the design. If you like what you see here, be sure to check out HTML5 Up! for more cool designs or follow me on Twitter for new releases and updates. </p>
-      </article>
+      </section>
 
-      <!-- Post 2-->
-      <article class="is-post is-post-excerpt">
-        <header>
-          <h2><a href="#">Lorem ipsum dolor sit amet</a></h2>
-          <span class="byline">Feugiat interdum sed commodo ipsum consequat dolor nullam metus</span> </header>
-        <div class="info"> <span class="date"><span class="month">Jan<span>uary</span></span> <span class="day">8</span><span class="year">, 2045</span></span>
-          <ul class="stats">
-            <li><a href="#" class="link-icon24 link-icon24-1">12</a></li>
-            <li><a href="#" class="link-icon24 link-icon24-2">24</a></li>
-            <li><a href="#" class="link-icon24 link-icon24-3">48</a></li>
-            <li><a href="#" class="link-icon24 link-icon24-4">96</a></li>
-          </ul>
+      <main id = "center-side">
+        <div id = "text-content">
+          <p>
+          My name is Patrick Imper, I am a senior Aerospace Engineering student with a concentration in Astronautics at Arizona State University.
+          </p>
         </div>
-        <a href="#" class="image image-full"><img src="images/fotogrph-dark-stairwell.jpg" alt=""></a>
-        <p> Quisque vel sapien sit amet tellus elementum ultricies. Nunc vel orci turpis. Donec id malesuada metus. Nunc nulla velit, fermentum quis interdum quis, tate etiam commodo lorem ipsum dolor sit amet dolore. Quisque vel sapien sit amet tellus elementum ultricies. Nunc vel orci turpis. Donec id malesuada metus. Nunc nulla velit, fermentum quis interdum quis, convallis eu sapien. Integer sed ipsum ante. </p>
-      </article>
-
-      <!-- Bottom of Page Button-->
-      <div class="pager">
-        <!--<a href="#" class="button previous">Previous Page</a>-->
-        <div class="pages"> <a href="#" class="active">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <span>&hellip;</span> <a href="#">20</a> </div>
-        <a href="#" class="button next">Next Page</a> 
-      </div>
-
-    </div>
-  </div>
-
-  <div id="sidebar">
-    <div id="logo">
-      <h1 class="mobileUI-site-name">About Me</h1> <!--Top of Mobile Page Title-->
-    </div>
-    <!-- Left Side Nav Bar -->
-    <nav id="nav" class="mobileUI-site-nav">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li class="current_page_item"><a href="aboutme.html">About Me</a></li>
-        <li><a href="myprojects.html">My Projects</a></li>
-        <li><a href="contactme.html">Contact Me</a></li>
-      </ul>
-    </nav>
-    <!-- Word Search -->
-    <section class="is-search is-first">
-      <form method="post" action="#">
-        <input type="text" class="text" name="search" placeholder="Search">
-      </form>
-    </section>
-
-    <!-- Below Search Text Box -->
-    <section class="is-text-style1">
-      <div class="inner">
-        <p> <strong>Striped:</strong> A free and fully responsive HTML5 site template designed by AJ for HTML5 Up! </p>
-      </div>
-    </section>
-
-    <!-- Recent Projects -->
-    <section class="is-recent-posts">
-      <header>
-        <h2>Recent Projects</h2>
-      </header>
-      <ul>
-        <li><a href="#">Liquids Engine</a></li>
-        <li><a href="#">Supersonic Rocket</a></li>
-        <li><a href="#">CAPSTONE</a></li>
-      </ul>
-    </section>
-
-    <!--
-    <section class="is-recent-comments">
-      <header>
-        <h2>Recent Comments</h2>
-      </header>
-      <ul>
-        <li>case on <a href="#">Now Full Cyborg</a></li>
-        <li>molly on <a href="#">Untitled Post</a></li>
-        <li>case on <a href="#">Temporal Flux</a></li>
-      </ul>
-    </section>
-    
-    <section class="is-calendar">
-      <div class="inner">
-        <table>
-          <caption>
-          February 2045
-          </caption>
-          <thead>
-            <tr>
-              <th scope="col" title="Monday">M</th>
-              <th scope="col" title="Tuesday">T</th>
-              <th scope="col" title="Wednesday">W</th>
-              <th scope="col" title="Thursday">T</th>
-              <th scope="col" title="Friday">F</th>
-              <th scope="col" title="Saturday">S</th>
-              <th scope="col" title="Sunday">S</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td colspan="4" class="pad"><span>&nbsp;</span></td>
-              <td><span>1</span></td>
-              <td><span>2</span></td>
-              <td><span>3</span></td>
-            </tr>
-            <tr>
-              <td><span>4</span></td>
-              <td><span>5</span></td>
-              <td><a href="#">6</a></td>
-              <td><span>7</span></td>
-              <td><span>8</span></td>
-              <td><span>9</span></td>
-              <td><a href="#">10</a></td>
-            </tr>
-            <tr>
-              <td><span>11</span></td>
-              <td><span>12</span></td>
-              <td><span>13</span></td>
-              <td class="today"><a href="#">14</a></td>
-              <td><span>15</span></td>
-              <td><span>16</span></td>
-              <td><span>17</span></td>
-            </tr>
-            <tr>
-              <td><span>18</span></td>
-              <td><span>19</span></td>
-              <td><span>20</span></td>
-              <td><span>21</span></td>
-              <td><span>22</span></td>
-              <td><a href="#">23</a></td>
-              <td><span>24</span></td>
-            </tr>
-            <tr>
-              <td><a href="#">25</a></td>
-              <td><span>26</span></td>
-              <td><span>27</span></td>
-              <td><span>28</span></td>
-              <td class="pad" colspan="3"><span>&nbsp;</span></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-    -->
-
-    <!-- Copyright -->
-    <div id="copyright">
-      <p> &copy; 2045 An Untitled Site.<br>
-        Images: <a href="http://n33.co">n33</a>, <a href="http://fotogrph.com">Fotogrph</a>, <a href="http://iconify.it">Iconify.it</a> Design: <a href="http://html5up.net/">HTML5 Up!</a> </p>
-    </div>
-  </div>
-</div>
-</body>
+      </main>
+  </body>
 </html>
